@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 40px;
+  background: $color-white-bg;
+  color: $color-black;
+  .header__logo {
+    width: 50px;
+    img {
+      width: 100%;
+    }
+  }
+  .header__options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .header__signin {
+    cursor: pointer;
+    padding: 0 30px;
+    font-weight: bold;
+  }
+  .header__cart {
+    cursor: pointer;
+    span {
+      font-weight: bold;
+    }
+    i {
+      margin-right: 5px;
+    }
+  }
+}

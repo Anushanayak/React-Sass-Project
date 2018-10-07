@@ -1,0 +1,15 @@
+.offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-blue-bg;
+  .offers__link {
+    color: $color-white;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    i {
+      font-size: 10px;
+    }
+  }
+}

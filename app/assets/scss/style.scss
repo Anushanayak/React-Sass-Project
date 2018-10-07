@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-weight: $font-regular;
+  font-size: $font-size-14;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  display: grid;
+  grid: auto/ auto;
+}

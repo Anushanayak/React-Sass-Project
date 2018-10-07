@@ -1,0 +1,69 @@
+.shopping {
+  display: grid;
+  grid: auto / 250px 1fr;
+  background: $color-white-bg;
+  .shopping__filter {
+    padding: 40px;
+    .shopping__filterheader {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+  .shopping__itemcontainer {
+    padding: 40px 15px;
+    display: grid;
+    grid: auto / 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .shopping__filterheader {
+
+  }
+  .shopping__filteritem {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}
+.shoppingcard {
+  background: #f2f2f2;
+  padding: 15px;
+  .shoppingcard__img {
+    img {
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .shoppingcard__title {
+    font-weight: 600;
+    color: $color-black;
+    padding: 20px 0 10px;
+  }
+  .shoppingcard__slot {
+    font-size: 12px;
+    color: #666;
+  }
+  .shoppingcard__cost {
+    color: $color-black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+  .shopping {
+    .shopping__itemcontainer {
+      grid: auto / 1fr 1fr;
+    }
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .shopping {
+    grid: auto / auto 1fr;
+    .shopping__itemcontainer {
+      grid: auto / 1fr;
+    }
+  }
+}
