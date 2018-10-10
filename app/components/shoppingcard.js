@@ -15,7 +15,7 @@ class CardComponent extends React.Component {
           <div className="shoppingcard__cost">&#8377;2376/-</div>
           <button className="btn btn__addtocart">Add to Cart</button>
         </div>
-      )
+      );
     }
   }
 

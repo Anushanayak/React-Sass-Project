@@ -22,7 +22,7 @@ class HeaderComponent extends React.Component {
             </div>
           </div>
         </div>
-      )
+      );
     }
   }
 

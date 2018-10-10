@@ -24,7 +24,7 @@ class MenuComponent extends React.Component {
             </li>
           </ul>
         </div>
-      )
+      );
     }
   }
 
