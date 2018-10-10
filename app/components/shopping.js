@@ -1,6 +1,6 @@
 import React from 'react';
-import ShoppingFilterComponent from './shoppingfilter'
-import CardComponent from './shoppingcard'
+import ShoppingFilterComponent from './shoppingfilter';
+import CardComponent from './shoppingcard';
 
 class ShoppingComponent extends React.Component {
   render () {
@@ -18,7 +18,7 @@ class ShoppingComponent extends React.Component {
             <CardComponent />
           </div>
         </div>
-      )
+      );
     }
   }
 

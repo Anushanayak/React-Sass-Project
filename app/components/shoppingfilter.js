@@ -25,7 +25,7 @@ class ShoppingFilterComponent extends React.Component {
             </li>
           </ul>
         </div>
-      )
+      );
     }
   }
 

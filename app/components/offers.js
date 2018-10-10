@@ -9,7 +9,7 @@ class OffersComponent extends React.Component {
             <span>Wishlist the Top Offers now <i className="fas fa-chevron-right"></i></span>
           </div>
         </div>
-      )
+      );
     }
   }
 
